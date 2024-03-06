@@ -19,6 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 function team_members_team_members_block_init() {
-	register_block_type( __DIR__ . '/build' );
+	register_block_type( __DIR__ . '/build/team-members' );
+	register_block_type( __DIR__ . '/build/team-member' );
 }
 add_action( 'init', 'team_members_team_members_block_init' );
