@@ -26,7 +26,7 @@ var __webpack_exports__ = {};
  */
 
 /* eslint-disable no-console */
-console.log("Hello World! (from team-member-team-member block)");
+// console.log("Hello World! (from team-member-team-member block)");
 /* eslint-enable no-console */
 /******/ })()
 ;
