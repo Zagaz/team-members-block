@@ -6,7 +6,14 @@ import './editor.scss';
 export default function Edit() {
 	return (
 		<div { ...useBlockProps() }>
-			<InnerBlocks />
+			<InnerBlocks
+			allowedBlocks ={
+			
+				['core/image', 'core/paragraph', 'core/heading']
+				
+			}
+			
+			/>
 		</div>
 	);
 }
