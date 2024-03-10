@@ -1,3 +1,6 @@
+@import './styles/variables';
 .wp-block-create-block-team-members {
-	border: 1px dotted #f00;
+	background-color: aquamarine;
+	font-family: $font-family;
+	color: $color-primary;
 }
