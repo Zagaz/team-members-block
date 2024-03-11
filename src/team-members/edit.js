@@ -11,6 +11,12 @@ export default function Edit() {
 			allowedBlocks ={
 				['team-member/team-member']
 			}
+			template={[
+				['team-member/team-member' ],
+				['team-member/team-member' ],
+				['team-member/team-member' ],
+				
+			]}
 			
 			/>
 		</div>
