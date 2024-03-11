@@ -22,11 +22,7 @@ export default function Edit({ attributes, setAttributes }) {
 	return (
 		<div {...useBlockProps()}>
 			<div
-			{...useBlockProps({
-				
-				className: `team-members-wrapper has-${columns}-columns`
-			})}
-		
+			
 					
 		
 			>
@@ -45,7 +41,13 @@ export default function Edit({ attributes, setAttributes }) {
 
 				</InspectorControls>
 
+
+
 				<InnerBlocks
+				{...useBlockProps({
+					className: `team-members-wrapper back-wrapper has-${columns}-columns`
+					
+				})}
 					allowedBlocks={
 						['team-member/team-member']
 					}

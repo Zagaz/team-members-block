@@ -2,30 +2,44 @@
 @import './styles/elements';
 
 .wp-block-create-block-team-members {
+	// Commom
 
-	background-color: aqua;
+	background-color: rgb(140, 255, 0);
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
 
-	.team-members-wrapper {
+	&.team-members-wrapper {
+		width: auto;
 		@for $i from 1 through 6 {
 			&.has-#{$i}-columns {
-				width: if($i ==1, 100%, unquote("calc(100%/#{$i})"));
+				.wp-block-team-member-team-member{
+				width: calc(100% / #{$i} - 20px);
+				
 			}
 		}
 	}
+}
+// The Team Member
+.wp-block-team-member-team-member{
 
-	.editor-wrapper {
-		// Add styles that should only be applied in the editor
-		padding: 30px;
+		border: 1px solid #383838;
+		background-color: aliceblue;
+
+		}
 
 	}
 
-	.save-wrapper {
+	//Backend
+	.editor-wrapper {
+		// Add styles that should only be applied in the editor
+		padding: 30px;
+		
+	}
+	
+	//Frontend
+	.front-wrapper {
 		// Add styles that should only be applied on the front of your site
 
 
 	}
 
-}

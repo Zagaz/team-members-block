@@ -30,6 +30,7 @@ export default function Edit({attributes,setAttributes}) {
 					value = {name}
 					onChange = {onChangeName}
 					allowedFormats={[]}
+					className='team-member-name'
 					/>
 				<RichText 
 					placeholder = {__('Member Bio', 'team-member')}
@@ -37,6 +38,7 @@ export default function Edit({attributes,setAttributes}) {
 					value = {bio}
 					onChange = {onChangeBio}
 					allowedFormats={[]}
+					className='team-member-bio'
 				/>
 
 			</div>

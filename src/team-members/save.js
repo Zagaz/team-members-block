@@ -11,18 +11,12 @@ export default function save({ attributes }) {
 	return (
 		<div {...useBlockProps.save(
 			{
-				className: `team-members-wrapper has-${columns}-columns`
+				className: `team-members-wrapper front-wrapper has-${columns}-columns`
 			}
 		)}>
+			<InnerBlocks.Content
+			/>
 
-			<div>
-
-				<InnerBlocks.Content
-				/>
-
-			</div>
-
-		
 		</div>
 	);
 }
