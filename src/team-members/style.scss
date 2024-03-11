@@ -2,30 +2,38 @@
 @import './styles/elements';
 
 .wp-block-create-block-team-members {
-	//This area is a common area for both the front and the editor
 	display: flex;
 	flex-wrap: wrap;
-
-	// Dynamic styles based on the number of columns
-	.has-1-columns{
-		background-color: yellow;
-	}
-	.has-2-columns{
-		background-color: red;
-	}
-	.has-3-columns{
-		background-color: blue;
-	}
-	.has-4-columns{
-		background-color: green;
-	}
-	.has-5-columns{
-		background-color: orange;
-	}
-	.has-6-columns{
-		background-color: purple;
-	}
+	.team-members-wrapper {
+		&.has-1-columns{
+			background-color: yellow;
+			width : 100%;
+		}
+		&.has-2-columns{
+			background-color: red;
+			width : 50%;
+		}
+		&.has-3-columns{
+			background-color: blue;
+			width : calc(100%/3);
+		}
+		&.has-4-columns{
+			background-color: green;
+			width : calc(100%/4);
+		}
+		&.has-5-columns{
+			background-color: pink;
+			width : calc(100%/5);
+		}
+		&.has-6-columns{
+			background-color: orange;
+			width : calc(100%/6);
+		}
 	
+	}
+
+	
+
 
 
 	.editor-wrapper {
