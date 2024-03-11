@@ -30,7 +30,7 @@ export default function Edit({ attributes, setAttributes }) {
 					
 		
 			>
-				<small>{__('Team Members Block', 'team-member')}</small>
+		
 				<InspectorControls>
 					<PanelBody>
 						<RangeControl

@@ -6,8 +6,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wp-block-create-block-team-members {
+  background-color: aqua;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 .wp-block-create-block-team-members .team-members-wrapper.has-1-columns {
   width: 100%;

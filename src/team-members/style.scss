@@ -2,8 +2,11 @@
 @import './styles/elements';
 
 .wp-block-create-block-team-members {
+
+	background-color: aqua;
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
 
 	.team-members-wrapper {
 		@for $i from 1 through 6 {
