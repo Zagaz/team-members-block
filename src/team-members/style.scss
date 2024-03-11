@@ -8,37 +8,39 @@
 	display: flex;
 	flex-wrap: wrap;
 
-	&.team-members-wrapper {
-		width: auto;
-		@for $i from 1 through 6 {
-			&.has-#{$i}-columns {
-				.wp-block-team-member-team-member{
-				width: calc(100% / #{$i} - 20px);
-				
-			}
-		}
-	}
+
 }
 // The Team Member
 .wp-block-team-member-team-member{
+	
 
 		border: 1px solid #383838;
 		background-color: aliceblue;
+		width: 100%;
 
 		}
 
-	}
+
 
 	//Backend
 	.editor-wrapper {
 		// Add styles that should only be applied in the editor
-		padding: 30px;
+	
 		
 	}
 	
 	//Frontend
 	.front-wrapper {
-		// Add styles that should only be applied on the front of your site
+	
+		.block-editor-inner-blocks{
+			padding : 20px;
+			width: 36rem;
+			.block-editor-block-list__block{
+				margin-bottom: 20px;
+			}
+		
+			
+		}
 
 
 	}

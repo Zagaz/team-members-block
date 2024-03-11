@@ -20,12 +20,12 @@ export default function Edit({ attributes, setAttributes }) {
 	}
 
 	return (
-		<div {...useBlockProps()}>
-			<div
-			
-					
+		<div {...useBlockProps(
+			{
+				className: `team-members-wrapper front-wrapper has-${columns}-columns`
+			}
+		)}>
 		
-			>
 		
 				<InspectorControls>
 					<PanelBody>
@@ -44,10 +44,6 @@ export default function Edit({ attributes, setAttributes }) {
 
 
 				<InnerBlocks
-				{...useBlockProps({
-					className: `team-members-wrapper back-wrapper has-${columns}-columns`
-					
-				})}
 					allowedBlocks={
 						['team-member/team-member']
 					}
@@ -59,7 +55,7 @@ export default function Edit({ attributes, setAttributes }) {
 					]}
 
 				/>
-			</div>
+			
 
 
 
