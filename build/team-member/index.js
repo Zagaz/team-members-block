@@ -53,12 +53,14 @@ function Edit({
     placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Member Name', 'team-member'),
     tagName: "h4",
     value: name,
-    onChange: onChangeName
+    onChange: onChangeName,
+    allowedFormats: []
   }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
     placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Member Bio', 'team-member'),
     tagName: "p",
     value: bio,
-    onChange: onChangeBio
+    onChange: onChangeBio,
+    allowedFormats: []
   })));
 }
 
