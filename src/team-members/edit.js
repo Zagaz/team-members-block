@@ -11,7 +11,7 @@ export default function Edit() {
 			<InnerBlocks
 			allowedBlocks ={
 			
-				['core/image', 'core/paragraph', 'core/heading']
+				['team-member/team-member']
 				
 			}
 			
