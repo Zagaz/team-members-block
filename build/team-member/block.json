@@ -9,7 +9,8 @@
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {
-    "html": false
+    "html": false,
+    "reusable": false
   },
   "textdomain": "team-member",
   "editorScript": "file:./index.js",
@@ -18,5 +19,17 @@
   "viewScript": "file:./view.js",
   "parent": [
     "team-members/team-members"
-  ]
+  ],
+  "attributes": {
+    "name": {
+      "type": "string",
+      "source": "html",
+      "selector": "h4"
+    },
+    "bio": {
+      "type": "string",
+      "source": "html",
+      "selector": "h4"
+    }
+  }
 }
