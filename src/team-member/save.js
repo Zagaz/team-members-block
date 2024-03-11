@@ -1,9 +1,30 @@
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps , RichText } from '@wordpress/block-editor';
 import { __ } from '@wordpress/i18n';
-export default function save() {
+
+
+export default function save({attributes}) {
+	const {
+		name,
+		bio
+	} = attributes;
+	
 	return (
-		<p { ...useBlockProps.save() }>
-			{ 'Team Member – hello from the saved content!' }
-		</p>
+	<>
+	<div
+	{...useBlockProps.save()}
+	>
+		<RichText.Content
+		tagName='h4'
+		value={name}
+		 />
+		<RichText.Content
+		tagName='p'
+		value={bio}
+		 />
+		
+
+		
+	</div>
+	</>
 	);
 }
