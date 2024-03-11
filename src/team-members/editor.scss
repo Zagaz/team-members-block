@@ -1,9 +1,8 @@
 @import './styles/variables';
 @import './styles/elements';
+
 .wp-block-create-block-team-members {
-	background-color: aquamarine;
-	font-family: $font-family;
-	color: $color-primary;
-	@include border;
+	// border: 5px solid green;
+
 
 }

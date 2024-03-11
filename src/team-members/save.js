@@ -9,14 +9,16 @@ import {
 export default function save({ attributes }) {
 	const { columns } = attributes;
 	return (
-		<div {...useBlockProps.save(
-			{
-				className: `team-members has-${columns}-columns`
-			}
-		)}>
-			<InnerBlocks.Content
-			/>
+		<div {...useBlockProps.save()}>
 
+			<div className={`save-wrapper team-members has-${columns}-columns`}>
+
+				<InnerBlocks.Content
+				/>
+
+			</div>
+
+		
 		</div>
 	);
 }

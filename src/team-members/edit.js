@@ -20,36 +20,43 @@ export default function Edit({ attributes, setAttributes }) {
 	}
 
 	return (
-		<div {...useBlockProps({
-			className: `team-members has-${columns}-columns`
-		})}>
-			<small>{__('Team Members Block', 'team-member')}</small>
-			<InspectorControls>
-				<PanelBody>
-					<RangeControl
-						label={__('Columns', 'team-member')}
-						value={columns}
-						onChange={onChangeColumns}
-						min={1}
-						max={6}
-					/>
+		<div {...useBlockProps()}>
+			<div
+			className={ `editor-wrapper team-members has-${columns}-columns`}
+					
+		
+			>
+				<small>{__('Team Members Block', 'team-member')}</small>
+				<InspectorControls>
+					<PanelBody>
+						<RangeControl
+							label={__('Columns', 'team-member')}
+							value={columns}
+							onChange={onChangeColumns}
+							min={1}
+							max={6}
+						/>
 
-				</PanelBody>
+					</PanelBody>
 
-			</InspectorControls>
+				</InspectorControls>
 
-			<InnerBlocks
-				allowedBlocks={
-					['team-member/team-member']
-				}
-				template={[
-					['team-member/team-member'],
-					['team-member/team-member'],
-					['team-member/team-member'],
+				<InnerBlocks
+					allowedBlocks={
+						['team-member/team-member']
+					}
+					template={[
+						['team-member/team-member'],
+						['team-member/team-member'],
+						['team-member/team-member'],
 
-				]}
+					]}
 
-			/>
+				/>
+			</div>
+
+
+
 		</div>
 	);
 }
