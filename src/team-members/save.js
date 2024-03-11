@@ -1,14 +1,22 @@
 
-import { useBlockProps,
-InnerBlocks } from '@wordpress/block-editor';
+import {
+	useBlockProps,
+	InnerBlocks
+} from '@wordpress/block-editor';
 
 
-export default function save() {
+
+export default function save({ attributes }) {
+	const { columns } = attributes;
 	return (
-		<div { ...useBlockProps.save() }>
-			<InnerBlocks.Content 
+		<div {...useBlockProps.save(
+			{
+				className: `team-members has-${columns}-columns`
+			}
+		)}>
+			<InnerBlocks.Content
 			/>
-			
+
 		</div>
 	);
 }
