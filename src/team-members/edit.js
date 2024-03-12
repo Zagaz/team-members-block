@@ -41,7 +41,7 @@ export default function Edit({ attributes, setAttributes }) {
 
 				</InspectorControls>
 
-<h1>Tst</h1>
+
 
 				<InnerBlocks
 					allowedBlocks={

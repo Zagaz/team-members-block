@@ -1,9 +1,6 @@
 @import './styles/variables';
 @import './styles/elements';
 
-@mixin team-member-card {
-	width : calc(100% / #{$i} );
-}
 
 // TEAM MEMBERS
 .wp-block-create-block-team-members {
@@ -12,39 +9,47 @@
 	flex-wrap: wrap;
 
 	&.team-members-wrapper {
-		display: flex	;
-			@for $i from 1 through 6 {
-				&.has-#{$i}-columns  
-				{
-					.wp-block-team-member-team-member {
-						width : calc(100% / #{$i} ) !important;
-					}
-				
+
+
+		@for $i from 1 through 6 {
+			&.has-#{$i}-columns {
+				.team-member-card {
+					background-color: red !important;
+					width : calc(100% / #{$i}) !important;
 				}
+
 			}
+		}
 	}
+
+	.block-editor-block-list__layout {
+		display: flex;
+		flex-wrap: wrap;
 	
-	&.front-wrapper{
-		padding : 0px;
+	}
+
+	&.front-wrapper {
+		padding: 0px;
 
 	}
 
-	&.back-wrapper{
+	&.back-wrapper {
 		background-color: rgb(228, 227, 255);
-		padding : 20px;
+		padding: 20px;
 		flex-direction: column;
-		.block-editor-inner-blocks{
-	
-			.block-editor-block-list__layout{
+
+		.block-editor-inner-blocks {
+
+			.block-editor-block-list__layout {
 				display: flex;
 
 
 				.wp-block-team-member-team-member {
-				
+
 					// .block-list-appender{
 					// 	padding: 20px;
 					// }
-				
+
 				}
 			}
 		}
@@ -62,21 +67,20 @@
 		margin: 30px;
 
 	}
-	
 
-     .team-member-bio{
+
+	.team-member-bio {
 
 		background-color: antiquewhite;
-          
-     }
-	.team-member-name{
+
+	}
+
+	.team-member-name {
 
 		background-color: antiquewhite;
 	}
 
 	//Frontend
-	.front-wrapper {
-
-	}
+	.front-wrapper {}
 
 }

@@ -184,7 +184,7 @@ function Edit({
     onChange: onChangeColumns,
     min: 1,
     max: 6
-  }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", null, "Tst"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InnerBlocks, {
+  }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InnerBlocks, {
     allowedBlocks: ['team-member/team-member'],
     template: [['team-member/team-member'], ['team-member/team-member'], ['team-member/team-member']]
   }));
