@@ -9,53 +9,29 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
 }
-.wp-block-create-block-team-members.team-members-wrapper.has-1-columns .team-member-card {
-  background-color: red !important;
-  width: calc(100% / 1) !important;
+.wp-block-create-block-team-members.has-1-columns .wp-block-team-member-team-member {
+  background-color: red;
+  width: calc(100% / 1);
 }
-.wp-block-create-block-team-members.team-members-wrapper.has-2-columns .team-member-card {
-  background-color: red !important;
-  width: calc(100% / 2) !important;
+.wp-block-create-block-team-members.has-2-columns .wp-block-team-member-team-member {
+  background-color: red;
+  width: calc(100% / 2);
 }
-.wp-block-create-block-team-members.team-members-wrapper.has-3-columns .team-member-card {
-  background-color: red !important;
-  width: calc(100% / 3) !important;
+.wp-block-create-block-team-members.has-3-columns .wp-block-team-member-team-member {
+  background-color: red;
+  width: calc(100% / 3);
 }
-.wp-block-create-block-team-members.team-members-wrapper.has-4-columns .team-member-card {
-  background-color: red !important;
-  width: calc(100% / 4) !important;
+.wp-block-create-block-team-members.has-4-columns .wp-block-team-member-team-member {
+  background-color: red;
+  width: calc(100% / 4);
 }
-.wp-block-create-block-team-members.team-members-wrapper.has-5-columns .team-member-card {
-  background-color: red !important;
-  width: calc(100% / 5) !important;
+.wp-block-create-block-team-members.has-5-columns .wp-block-team-member-team-member {
+  background-color: red;
+  width: calc(100% / 5);
 }
-.wp-block-create-block-team-members.team-members-wrapper.has-6-columns .team-member-card {
-  background-color: red !important;
-  width: calc(100% / 6) !important;
-}
-.wp-block-create-block-team-members .block-editor-block-list__layout {
-  display: flex;
-  flex-wrap: wrap;
-}
-.wp-block-create-block-team-members.front-wrapper {
-  padding: 0px;
-}
-.wp-block-create-block-team-members.back-wrapper {
-  background-color: rgb(228, 227, 255);
-  padding: 20px;
-  flex-direction: column;
-}
-.wp-block-create-block-team-members.back-wrapper .block-editor-inner-blocks .block-editor-block-list__layout {
-  display: flex;
-}
-.wp-block-team-member-team-member .block-list-appender {
-  margin: 30px;
-}
-.wp-block-team-member-team-member .team-member-bio {
-  background-color: antiquewhite;
-}
-.wp-block-team-member-team-member .team-member-name {
-  background-color: antiquewhite;
+.wp-block-create-block-team-members.has-6-columns .wp-block-team-member-team-member {
+  background-color: red;
+  width: calc(100% / 6);
 }
 
 /*# sourceMappingURL=style-index.css.map*/

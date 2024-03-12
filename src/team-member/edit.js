@@ -24,7 +24,10 @@ export default function Edit({attributes,setAttributes}) {
 	return (
 		<>
 			<div {...useBlockProps(
-				{className: 'team-member-card'}
+			{
+				className: 'team-member-card-backend'
+			}
+
 			)}>
 				<RichText
 					placeholder = {__('Member Name', 'team-member')}

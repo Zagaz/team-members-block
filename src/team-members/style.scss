@@ -2,85 +2,19 @@
 @import './styles/elements';
 
 
-// TEAM MEMBERS
+// T
 .wp-block-create-block-team-members {
 
 	display: flex;
 	flex-wrap: wrap;
-
-	&.team-members-wrapper {
-
-
 		@for $i from 1 through 6 {
 			&.has-#{$i}-columns {
-				.team-member-card {
-					background-color: red !important;
-					width : calc(100% / #{$i}) !important;
+				.wp-block-team-member-team-member  {
+					background-color: red ;
+					width : calc(100% / #{$i});
 				}
 
 			}
 		}
-	}
-
-	.block-editor-block-list__layout {
-		display: flex;
-		flex-wrap: wrap;
-	
-	}
-
-	&.front-wrapper {
-		padding: 0px;
-
-	}
-
-	&.back-wrapper {
-		background-color: rgb(228, 227, 255);
-		padding: 20px;
-		flex-direction: column;
-
-		.block-editor-inner-blocks {
-
-			.block-editor-block-list__layout {
-				display: flex;
-
-
-				.wp-block-team-member-team-member {
-
-					// .block-list-appender{
-					// 	padding: 20px;
-					// }
-
-				}
-			}
-		}
-	}
-
-
-}
-
-
-
-
-// TEAM MEMBER
-.wp-block-team-member-team-member {
-	.block-list-appender {
-		margin: 30px;
-
-	}
-
-
-	.team-member-bio {
-
-		background-color: antiquewhite;
-
-	}
-
-	.team-member-name {
-
-		background-color: antiquewhite;
-	}
-
-	//Frontend
-	.front-wrapper {}
 
 }

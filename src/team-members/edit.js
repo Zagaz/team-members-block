@@ -22,7 +22,7 @@ export default function Edit({ attributes, setAttributes }) {
 	return (
 		<div {...useBlockProps(
 			{
-				className: `team-members-wrapper back-wrapper has-${columns}-columns `
+				className: `has-${columns}-columns `
 			}
 		)}>
 		
@@ -47,12 +47,14 @@ export default function Edit({ attributes, setAttributes }) {
 					allowedBlocks={
 						['team-member/team-member']
 					}
+					orientation='horizontal'
 					template={[
 						['team-member/team-member'],
 						['team-member/team-member'],
 						['team-member/team-member'],
 
 					]}
+					// templateLock= 'insert'
 
 				/>
 			
