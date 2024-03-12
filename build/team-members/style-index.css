@@ -9,6 +9,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
 }
+.wp-block-create-block-team-members.team-members-wrapper {
+  display: flex;
+}
 .wp-block-create-block-team-members.team-members-wrapper.has-1-columns .wp-block-team-member-team-member {
   width: calc(100% / 1) !important;
 }
@@ -37,6 +40,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .wp-block-create-block-team-members.back-wrapper .block-editor-inner-blocks .block-editor-block-list__layout {
   display: flex;
+}
+.wp-block-team-member-team-member .block-list-appender {
+  margin: 30px;
 }
 .wp-block-team-member-team-member .team-member-bio {
   background-color: antiquewhite;

@@ -12,6 +12,7 @@
 	flex-wrap: wrap;
 
 	&.team-members-wrapper {
+		display: flex	;
 			@for $i from 1 through 6 {
 				&.has-#{$i}-columns  
 				{
@@ -57,6 +58,10 @@
 
 // TEAM MEMBER
 .wp-block-team-member-team-member {
+	.block-list-appender {
+		margin: 30px;
+
+	}
 	
 
      .team-member-bio{
