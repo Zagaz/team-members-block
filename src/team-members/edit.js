@@ -22,7 +22,7 @@ export default function Edit({ attributes, setAttributes }) {
 	return (
 		<div {...useBlockProps(
 			{
-				className: `team-members-wrapper front-wrapper has-${columns}-columns`
+				className: `team-members-wrapper back-wrapper `
 			}
 		)}>
 		
