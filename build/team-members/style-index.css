@@ -13,43 +13,43 @@ h1, h2, h3, h4, h5, h6 {
 .wp-block-create-block-team-members.front-wrapper.has-1-columns {
   background-color: #7fff00;
 }
-.wp-block-create-block-team-members.front-wrapper.has-1-columns .wp-block-team-member-team-member {
-  background-color: rgb(156, 137, 173);
+.wp-block-create-block-team-members.front-wrapper.has-1-columns .wp-block-team-member-team-member.team-member-card {
+  background-color: rgb(208, 255, 0);
   width: calc(100% / 1);
 }
 .wp-block-create-block-team-members.front-wrapper.has-2-columns {
   background-color: #7fff00;
 }
-.wp-block-create-block-team-members.front-wrapper.has-2-columns .wp-block-team-member-team-member {
-  background-color: rgb(156, 137, 173);
+.wp-block-create-block-team-members.front-wrapper.has-2-columns .wp-block-team-member-team-member.team-member-card {
+  background-color: rgb(208, 255, 0);
   width: calc(100% / 2);
 }
 .wp-block-create-block-team-members.front-wrapper.has-3-columns {
   background-color: #7fff00;
 }
-.wp-block-create-block-team-members.front-wrapper.has-3-columns .wp-block-team-member-team-member {
-  background-color: rgb(156, 137, 173);
+.wp-block-create-block-team-members.front-wrapper.has-3-columns .wp-block-team-member-team-member.team-member-card {
+  background-color: rgb(208, 255, 0);
   width: calc(100% / 3);
 }
 .wp-block-create-block-team-members.front-wrapper.has-4-columns {
   background-color: #7fff00;
 }
-.wp-block-create-block-team-members.front-wrapper.has-4-columns .wp-block-team-member-team-member {
-  background-color: rgb(156, 137, 173);
+.wp-block-create-block-team-members.front-wrapper.has-4-columns .wp-block-team-member-team-member.team-member-card {
+  background-color: rgb(208, 255, 0);
   width: calc(100% / 4);
 }
 .wp-block-create-block-team-members.front-wrapper.has-5-columns {
   background-color: #7fff00;
 }
-.wp-block-create-block-team-members.front-wrapper.has-5-columns .wp-block-team-member-team-member {
-  background-color: rgb(156, 137, 173);
+.wp-block-create-block-team-members.front-wrapper.has-5-columns .wp-block-team-member-team-member.team-member-card {
+  background-color: rgb(208, 255, 0);
   width: calc(100% / 5);
 }
 .wp-block-create-block-team-members.front-wrapper.has-6-columns {
   background-color: #7fff00;
 }
-.wp-block-create-block-team-members.front-wrapper.has-6-columns .wp-block-team-member-team-member {
-  background-color: rgb(156, 137, 173);
+.wp-block-create-block-team-members.front-wrapper.has-6-columns .wp-block-team-member-team-member.team-member-card {
+  background-color: rgb(208, 255, 0);
   width: calc(100% / 6);
 }
 .wp-block-create-block-team-members.back-wrapper {
@@ -61,6 +61,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 .wp-block-create-block-team-members.back-wrapper .block-editor-inner-blocks .wp-block-team-member-team-member {
   width: auto;
+}
+.wp-block-create-block-team-members.front-wrapper {
+  background-color: rgb(228, 152, 11);
+}
+.wp-block-team-member-team-member {
+  width: 100%;
+}
+.wp-block-team-member-team-member.team-member-card {
+  background-color: red;
+}
+.wp-block-team-member-team-member.team-member-name {
+  border: 1px solid #383838;
+}
+.wp-block-team-member-team-member .team-member-bio {
+  border: 1px solid #383838;
 }
 
 /*# sourceMappingURL=style-index.css.map*/

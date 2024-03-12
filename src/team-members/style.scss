@@ -1,6 +1,7 @@
 @import './styles/variables';
 @import './styles/elements';
 
+// TEAM MEMBERS
 .wp-block-create-block-team-members {
 	background-color: rgb(226, 136, 136);
 	display: flex;
@@ -13,9 +14,13 @@
 				background-color: #7fff00;
 				
 				.wp-block-team-member-team-member {
-					background-color: rgb(156, 137, 173);
-					width : calc(100% / #{$i});
+					// This is the Team Member Card
+					&.team-member-card{
+
+						background-color: rgb(208, 255, 0);
+						width : calc(100% / #{$i} );
 					
+					}
 				}
 			}
 		}
@@ -32,28 +37,35 @@
 			
 			}
 		}
-	
-	
 	}
 
-	
+	&.front-wrapper{
+		background-color: rgb(228, 152, 11);
+		.wp-block-team-member-team-member{
+			
 
+		}
+	}
 }
 
 
 
 
-// The Team Member
+// TEAM MEMBER
 .wp-block-team-member-team-member {
+	width : 100%;
 
-
-
-	//Backend
-	.back-wrapper {
-	
-
+	&.team-member-card{
+		background-color: red; 
 
 	}
+	&.team-member-name{
+          border: 1px solid #383838;
+     }
+     .team-member-bio{
+          border: 1px solid #383838;
+          
+     }
 
 	//Frontend
 	.front-wrapper {
