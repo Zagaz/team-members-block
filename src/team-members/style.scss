@@ -1,29 +1,31 @@
 @import './styles/variables';
 @import './styles/elements';
 
+@mixin team-member-card {
+	width : calc(100% / #{$i} );
+}
+
 // TEAM MEMBERS
 .wp-block-create-block-team-members {
 
 	display: flex;
 	flex-wrap: wrap;
-	
-	&.front-wrapper{
-		@for $i from 1 through 6 {
-			&.has-#{$i}-columns  
-			{
-				background-color: #7fff00;
-				
-				.wp-block-team-member-team-member {
-					// This is the Team Member Card
-					&.team-member-card{
 
-						background-color: rgb(208, 255, 0);
-						width : calc(100% / #{$i} );
-					
+	&.team-members-wrapper {
+			@for $i from 1 through 6 {
+				&.has-#{$i}-columns  
+				{
+					.wp-block-team-member-team-member {
+						width : calc(100% / #{$i} ) !important;
 					}
+				
 				}
 			}
-		}
+	}
+	
+	&.front-wrapper{
+		padding : 0px;
+
 	}
 
 	&.back-wrapper{
@@ -31,22 +33,23 @@
 		padding : 20px;
 		flex-direction: column;
 		.block-editor-inner-blocks{
-			width: 100%;
-			.wp-block-team-member-team-member {
-		
-				width : auto;
-			
+	
+			.block-editor-block-list__layout{
+				display: flex;
+
+
+				.wp-block-team-member-team-member {
+				
+					// .block-list-appender{
+					// 	padding: 20px;
+					// }
+				
+				}
 			}
 		}
 	}
 
-	&.front-wrapper{
-		background-color: rgb(228, 152, 11);
-		.wp-block-team-member-team-member{
-			
 
-		}
-	}
 }
 
 
@@ -54,8 +57,7 @@
 
 // TEAM MEMBER
 .wp-block-team-member-team-member {
-	width : 100%;
-
+	
 
      .team-member-bio{
 

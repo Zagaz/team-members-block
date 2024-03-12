@@ -23,7 +23,9 @@ export default function Edit({attributes,setAttributes}) {
 	// RETURN
 	return (
 		<>
-			<div {...useBlockProps()}>
+			<div {...useBlockProps(
+				{className: 'team-member-card'}
+			)}>
 				<RichText
 					placeholder = {__('Member Name', 'team-member')}
 					tagName='h4'
