@@ -7,6 +7,7 @@
 🖥️ - Coding -
 📋 - Notes and Documentation
 🐞 - Bug fix
+💎 - Beautify
 
 ## Team Members
 
