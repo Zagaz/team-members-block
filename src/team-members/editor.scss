@@ -24,7 +24,7 @@
                          align-items: center;
                          justify-content: center;
                          min-height: 100px;
-                         width: calc(100% / 3 - 43px);
+                         width: calc(100% / #{$i} - 20px);
                          position: relative;
                          height: fit-content;
                          margin-left: 10px;
