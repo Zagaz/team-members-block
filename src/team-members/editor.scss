@@ -17,7 +17,7 @@
 					[data-type="team-member/team-member"] {
                               border: 1px solid #f0f0f0;
 						max-width: none;
-						width: calc(100% / #{$i} - 20px);
+						width: calc(100% / #{$i} );
 					}
 
 					.block-list-appender {
@@ -27,7 +27,7 @@
 						justify-content: center;
 						min-height: 100px;
 						// the width must be the same as the team member block
-						width: calc(100% / #{$i} - 20px);
+						width: calc(100% / #{$i});
 						position: relative;
 						height: fit-content;
 						margin-left: 10px;
