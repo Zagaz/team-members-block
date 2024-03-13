@@ -43,6 +43,7 @@ export default function Edit({ attributes, setAttributes }) {
 					["team-member/team-member"],
 					["team-member/team-member"],
 				]}
+				
 			/>
 		</div>
 	);

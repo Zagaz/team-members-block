@@ -1,8 +1,23 @@
-@import './styles/variables';
-@import './styles/elements';
+@import "./styles/variables";
+@import "./styles/elements";
 
-
-// T
+// TEAM MEMBERS
 .wp-block-create-block-team-members {
+	display: flex;
+	flex-wrap: wrap;
 
+	@for $i from 1 through 6 {
+		&.has-#{$i}-columns {
+			.wp-block-team-member-team-member {
+				border: 1px solid black;
+				width: calc(100% / #{$i} - 20px);
+			}
+		}
+	}
+
+	.wp-block-team-member-team-member {
+		margin: 8px;
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
