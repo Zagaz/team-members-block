@@ -1,3 +1,4 @@
+// TEAM MEMBERS BLOCK: EDIT ============================================
 import { __ } from "@wordpress/i18n";
 // Block Editor
 import {
@@ -7,13 +8,13 @@ import {
 } from "@wordpress/block-editor";
 // Components
 import { PanelBody, RangeControl } from "@wordpress/components";
-
+// Styles
 import "./editor.scss";
 
 export default function Edit({ attributes, setAttributes }) {
 	const { columns } = attributes;
-	const onChangeColumns = (value) => {
-		setAttributes({ columns: value });
+	const onChangeColumns = (newColumns) => {
+		setAttributes({ columns: newColumns });
 	};
 
 	return (
@@ -40,7 +41,7 @@ export default function Edit({ attributes, setAttributes }) {
 				template={[
 					["team-member/team-member"],
 					["team-member/team-member"],
-					["team-member/team-member"]
+					["team-member/team-member"],
 				]}
 			/>
 		</div>

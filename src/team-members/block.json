@@ -19,7 +19,7 @@
 	"attributes": {
 		"columns": {
 			"type": "number",
-			"default": 1
+			"default": 3
 		}
 		
 	}
