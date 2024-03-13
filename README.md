@@ -7,3 +7,7 @@
 🖥️ - Coding -
 📋 - Notes and Documentation
 🐞 - Bug fix
+
+## Team Members
+
+### Description
