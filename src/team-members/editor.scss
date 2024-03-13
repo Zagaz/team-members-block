@@ -1,0 +1,36 @@
+@import './styles/variables';
+@import './styles/elements';
+
+.wp-block-create-block-team-members {
+	display: block;
+	background-color: green;
+
+	@for $i from 1 through 6 {
+		&.has-#{$i}-columns {
+			.block-editor-inner-blocks  {
+		
+				background-color: salmon;
+				.block-editor-block-list__layout{
+					background-color: aqua;
+					display: flex;
+					flex-wrap: wrap;
+					.team-member-card-backend{
+						width : calc(100% / #{$i});
+						background-color: yellow;
+						max-width: none;
+						margin: 0;
+
+					}
+
+
+				}
+			}
+
+		}
+	}
+
+
+
+
+
+}

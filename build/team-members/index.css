@@ -1,0 +1,101 @@
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/team-member/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/team-members/editor.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+}
+
+.wp-block-create-block-team-members {
+  display: block;
+  background-color: green;
+}
+.wp-block-create-block-team-members.has-1-columns .block-editor-inner-blocks {
+  background-color: salmon;
+}
+.wp-block-create-block-team-members.has-1-columns .block-editor-inner-blocks .block-editor-block-list__layout {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wp-block-create-block-team-members.has-1-columns .block-editor-inner-blocks .block-editor-block-list__layout .team-member-card-backend {
+  width: calc(100% / 1);
+  background-color: yellow;
+  max-width: none;
+  margin: 0;
+}
+.wp-block-create-block-team-members.has-2-columns .block-editor-inner-blocks {
+  background-color: salmon;
+}
+.wp-block-create-block-team-members.has-2-columns .block-editor-inner-blocks .block-editor-block-list__layout {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wp-block-create-block-team-members.has-2-columns .block-editor-inner-blocks .block-editor-block-list__layout .team-member-card-backend {
+  width: calc(100% / 2);
+  background-color: yellow;
+  max-width: none;
+  margin: 0;
+}
+.wp-block-create-block-team-members.has-3-columns .block-editor-inner-blocks {
+  background-color: salmon;
+}
+.wp-block-create-block-team-members.has-3-columns .block-editor-inner-blocks .block-editor-block-list__layout {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wp-block-create-block-team-members.has-3-columns .block-editor-inner-blocks .block-editor-block-list__layout .team-member-card-backend {
+  width: calc(100% / 3);
+  background-color: yellow;
+  max-width: none;
+  margin: 0;
+}
+.wp-block-create-block-team-members.has-4-columns .block-editor-inner-blocks {
+  background-color: salmon;
+}
+.wp-block-create-block-team-members.has-4-columns .block-editor-inner-blocks .block-editor-block-list__layout {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wp-block-create-block-team-members.has-4-columns .block-editor-inner-blocks .block-editor-block-list__layout .team-member-card-backend {
+  width: calc(100% / 4);
+  background-color: yellow;
+  max-width: none;
+  margin: 0;
+}
+.wp-block-create-block-team-members.has-5-columns .block-editor-inner-blocks {
+  background-color: salmon;
+}
+.wp-block-create-block-team-members.has-5-columns .block-editor-inner-blocks .block-editor-block-list__layout {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wp-block-create-block-team-members.has-5-columns .block-editor-inner-blocks .block-editor-block-list__layout .team-member-card-backend {
+  width: calc(100% / 5);
+  background-color: yellow;
+  max-width: none;
+  margin: 0;
+}
+.wp-block-create-block-team-members.has-6-columns .block-editor-inner-blocks {
+  background-color: salmon;
+}
+.wp-block-create-block-team-members.has-6-columns .block-editor-inner-blocks .block-editor-block-list__layout {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wp-block-create-block-team-members.has-6-columns .block-editor-inner-blocks .block-editor-block-list__layout .team-member-card-backend {
+  width: calc(100% / 6);
+  background-color: yellow;
+  max-width: none;
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/
