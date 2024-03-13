@@ -25,42 +25,27 @@ export default function Edit({ attributes, setAttributes }) {
 				className: `has-${columns}-columns `
 			}
 		)}>
-		
-		
-				<InspectorControls>
-					<PanelBody>
-						<RangeControl
-							label={__('Columns', 'team-member')}
-							value={columns}
-							onChange={onChangeColumns}
-							min={1}
-							max={6}
-						/>
+			<InspectorControls>
+				<PanelBody>
+					<RangeControl
+						label={__('Columns', 'team-member')}
+						value={columns}
+						onChange={onChangeColumns}
+						min={1}
+						max={6}
+					/>
+				</PanelBody>
+			</InspectorControls>
 
-					</PanelBody>
-
-				</InspectorControls>
-
-
-
-				<InnerBlocks
-					allowedBlocks={
-						['team-member/team-member']
-					}
-					orientation='horizontal'
-					template={[
-						['team-member/team-member'],
-						['team-member/team-member'],
-						['team-member/team-member'],
-
-					]}
-					// templateLock= 'insert'
-
-				/>
-			
-
-
-
+			<InnerBlocks
+				allowedBlocks={['team-member/team-member']}
+				orientation='horizontal'
+				template={[
+					['team-member/team-member'],
+					['team-member/team-member'],
+					['team-member/team-member'],
+				]}
+			/>
 		</div>
 	);
 }

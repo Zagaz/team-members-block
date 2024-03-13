@@ -186,7 +186,6 @@ function Edit({
     allowedBlocks: ['team-member/team-member'],
     orientation: "horizontal",
     template: [['team-member/team-member'], ['team-member/team-member'], ['team-member/team-member']]
-    // templateLock= 'insert'
   }));
 }
 
