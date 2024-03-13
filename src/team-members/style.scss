@@ -5,16 +5,4 @@
 // T
 .wp-block-create-block-team-members {
 
-	display: flex;
-	flex-wrap: wrap;
-		@for $i from 1 through 6 {
-			&.has-#{$i}-columns {
-				.wp-block-team-member-team-member  {
-					background-color: red ;
-					width : calc(100% / #{$i});
-				}
-
-			}
-		}
-
 }
