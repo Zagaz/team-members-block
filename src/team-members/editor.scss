@@ -2,8 +2,23 @@
 @import './styles/elements';
 
 .wp-block-create-block-team-members {
+     display: block;
+     .block-editor-inner-blocks{
+
+          .block-editor-block-list__layout{
+               display: flex;
+               flex-wrap: wrap;
+               margin: 8px;
+               margin-left: 0;
+               margin-right: 0;
+               [data-type="team-member/team-member"]{
+                    max-width : none;
+                    margin : 8px;
+               }
+          }
 
 
+     }
 
 
 }
