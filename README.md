@@ -1,5 +1,6 @@
 # team-members-block
 
+<<<<<<< HEAD
 ## Commit icon codes
 🧪 - Test
 🚿 - Clean Up - When comments and other unnecessary code is removed.
@@ -13,3 +14,7 @@
 ## Team Members
 
 ### Description
+=======
+⚠️This project still in progress!⚠️
+
+>>>>>>> main
