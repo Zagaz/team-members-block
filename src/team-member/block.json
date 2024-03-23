@@ -17,20 +17,19 @@
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",
 	"viewScript": "file:./view.js",
-	"parent": ["team-members/team-members"],
+	"parent": [
+		"team-members/team-members"
+	],
 	"attributes": {
-		"name" :{
-			"type" : "string",
-			"source" : "html",
-			"selector" : "h4"
-
+		"name": {
+			"type": "string",
+			"source": "html",
+			"selector": "h4"
 		},
-		"bio" :{
-			"type" : "string",
-			"source" : "html",
-			"selector" : "h4"
-
+		"bio": {
+			"type": "string",
+			"source": "html",
+			"selector": "h4"
 		}
-
 	}
 }
